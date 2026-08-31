@@ -4,6 +4,26 @@
 
  This script enables export of photoshop file format (.psd) to aseprite.
 
+## Modified Variants in This Fork
+
+This fork keeps the original `Export as psd.lua` unchanged and adds two clearly named variants:
+
+- `Export selected frames as numbered PSD.lua`
+  - Select frames with checkboxes.
+  - Export each selected frame as a separately numbered PSD file.
+  - Keep existing files and add `_2`, `_3`, and so on when a name is already used.
+- `Export all frames as numbered PSD.lua`
+  - Export every frame as a separately numbered PSD file in one operation.
+
+Both variants include the following compatibility fixes:
+
+- Preserve Unicode layer names when the PSD is opened in CLIP STUDIO PAINT.
+- Handle Aseprite files edited with Pixquare that could otherwise fail to export.
+
+The compatibility fixes were implemented with assistance from Claude Code. The numbered export and frame-selection changes were implemented with assistance from OpenAI Codex. The modified variants are maintained by Lichiphen.
+
+The original work is Copyright (c) 2020 Tsukina-7mochi. Modifications are Copyright (c) 2026 Lichiphen. All versions in this repository are distributed under the MIT License in the repository root.
+
 ## Installation
 
  1. Open your script folder.
