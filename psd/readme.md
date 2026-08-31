@@ -28,7 +28,8 @@ The original work is Copyright (c) 2020 Tsukina-7mochi. Modifications are Copyri
 
  1. Open your script folder.
       (File -> Scripts -> Open Scripts Folder)
-  2. Place "Export as psd.lua"
+ 2. Download the version you want and place its `.lua` file in the scripts folder.
+ 3. You can install all three versions at the same time because they have different filenames.
 
 ## Usage
 
@@ -40,7 +41,11 @@ The original work is Copyright (c) 2020 Tsukina-7mochi. Modifications are Copyri
 
 ## Download
 
-[Download](https://raw.githubusercontent.com/Tsukina-7mochi/aseprite-scripts/master/psd/Export%20as%20psd.lua)
+- [Download the original Export as PSD](https://raw.githubusercontent.com/Lichiphen/aseprite-scripts/master/psd/Export%20as%20psd.lua)
+- [Download the all-frames numbered PSD variant](https://raw.githubusercontent.com/Lichiphen/aseprite-scripts/master/psd/Export%20all%20frames%20as%20numbered%20PSD.lua)
+- [Download the selected-frames numbered PSD variant](https://raw.githubusercontent.com/Lichiphen/aseprite-scripts/master/psd/Export%20selected%20frames%20as%20numbered%20PSD.lua)
+
+If your browser displays the Lua source instead of downloading it, save the page with the `.lua` filename shown in the link.
 
 ## Changelog
 
