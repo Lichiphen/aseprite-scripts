@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>Aseprite Scripts</h1>
-<p><strong>A maintained fork with enhanced PSD export workflows</strong></p>
+<p><strong>A maintained fork with enhanced PSD and PNG export workflows</strong></p>
 <p>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-6e9bd2.svg"></a>
   <a href="psd/readme.md"><img alt="PSD Exporters" src="https://img.shields.io/badge/PSD-3%20Exporters-b07ac4.svg"></a>
@@ -31,6 +31,12 @@ The modified exporters preserve Unicode layer names for CLIP STUDIO PAINT, handl
 
 ### [Open the PSD guide, downloads, usage, and credits →](psd/readme.md)
 
+## Selected Frames — Numbered PNG
+
+Export checked frames as individual transparent PNGs. All frames start checked; uncheck any to omit them. Includes Select All, Clear All, original frame numbering, and duplicate filename protection.
+
+[Download and usage guide](png/readme.md)
+
 ## Other Scripts
 
 - [Export as ico, cur, ani](icon-and-cursor): Export Windows icons and static or animated cursors.
@@ -49,6 +55,11 @@ Aseprite scripts are distributed as `.lua` files.
 The three PSD exporters have different filenames, so they can be installed side by side.
 
 ## Fork Changelog
+
+### 2026-09-12 — Selected PNG export
+
+- Added a standalone PNG exporter using the selected-frame PSD checkbox workflow.
+- Added real Aseprite rendering tests and a download/usage guide.
 
 ### 2026-08-31 — Public fork release
 
